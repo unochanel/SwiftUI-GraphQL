@@ -3,34 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FADB96E726481055007E88A1 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96E626481055007E88A1 /* Tests_iOS.swift */; };
-		FADB96F226481055007E88A1 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96F126481055007E88A1 /* Tests_macOS.swift */; };
 		FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */; };
-		FADB96F526481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */; };
 		FADB96F626481055007E88A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CC26481054007E88A1 /* ContentView.swift */; };
-		FADB96F726481055007E88A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CC26481054007E88A1 /* ContentView.swift */; };
 		FADB96F826481055007E88A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB96CD26481055007E88A1 /* Assets.xcassets */; };
-		FADB96F926481055007E88A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB96CD26481055007E88A1 /* Assets.xcassets */; };
+		FADB97112648140B007E88A1 /* SwiftUI_GraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */; };
+		FADB971A2648265C007E88A1 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FADB97192648265C007E88A1 /* Apollo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FADB96E326481055007E88A1 /* PBXContainerItemProxy */ = {
+		FADB97132648140B007E88A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FADB96C626481054007E88A1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FADB96D126481055007E88A1;
 			remoteInfo = "SwiftUI-GraphQL (iOS)";
-		};
-		FADB96EE26481055007E88A1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FADB96C626481054007E88A1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FADB96D926481055007E88A1;
-			remoteInfo = "SwiftUI-GraphQL (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,15 +30,9 @@
 		FADB96CD26481055007E88A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADB96D226481055007E88A1 /* SwiftUI-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB96D526481055007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FADB96DA26481055007E88A1 /* SwiftUI-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADB96DC26481055007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FADB96DD26481055007E88A1 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		FADB96E226481055007E88A1 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADB96E626481055007E88A1 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		FADB96E826481055007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FADB96ED26481055007E88A1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FADB96F126481055007E88A1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		FADB96F326481055007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADB970E2648140B007E88A1 /* SwiftUI-GraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-GraphQLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GraphQLTests.swift; sourceTree = "<group>"; };
+		FADB97122648140B007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,24 +40,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADB971A2648265C007E88A1 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB96D726481055007E88A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FADB96DF26481055007E88A1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FADB96EA26481055007E88A1 /* Frameworks */ = {
+		FADB970B2648140B007E88A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,69 +57,55 @@
 		FADB96C526481054007E88A1 = {
 			isa = PBXGroup;
 			children = (
-				FADB96CA26481054007E88A1 /* Shared */,
-				FADB96D426481055007E88A1 /* iOS */,
-				FADB96DB26481055007E88A1 /* macOS */,
-				FADB96E526481055007E88A1 /* Tests iOS */,
-				FADB96F026481055007E88A1 /* Tests macOS */,
+				FADB96CA26481054007E88A1 /* SwiftUI-GraphQL */,
+				FADB970F2648140B007E88A1 /* SwiftUI-GraphQLTests */,
 				FADB96D326481055007E88A1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FADB96CA26481054007E88A1 /* Shared */ = {
+		FADB96CA26481054007E88A1 /* SwiftUI-GraphQL */ = {
 			isa = PBXGroup;
 			children = (
 				FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */,
-				FADB96CC26481054007E88A1 /* ContentView.swift */,
-				FADB96CD26481055007E88A1 /* Assets.xcassets */,
+				FADB9708264810CC007E88A1 /* Sources */,
+				FADB9709264810D3007E88A1 /* Resources */,
 			);
-			path = Shared;
+			path = "SwiftUI-GraphQL";
 			sourceTree = "<group>";
 		};
 		FADB96D326481055007E88A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				FADB96D226481055007E88A1 /* SwiftUI-GraphQL.app */,
-				FADB96DA26481055007E88A1 /* SwiftUI-GraphQL.app */,
-				FADB96E226481055007E88A1 /* Tests iOS.xctest */,
-				FADB96ED26481055007E88A1 /* Tests macOS.xctest */,
+				FADB970E2648140B007E88A1 /* SwiftUI-GraphQLTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FADB96D426481055007E88A1 /* iOS */ = {
+		FADB9708264810CC007E88A1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FADB96CC26481054007E88A1 /* ContentView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FADB9709264810D3007E88A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				FADB96D526481055007E88A1 /* Info.plist */,
+				FADB96CD26481055007E88A1 /* Assets.xcassets */,
 			);
-			path = iOS;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		FADB96DB26481055007E88A1 /* macOS */ = {
+		FADB970F2648140B007E88A1 /* SwiftUI-GraphQLTests */ = {
 			isa = PBXGroup;
 			children = (
-				FADB96DC26481055007E88A1 /* Info.plist */,
-				FADB96DD26481055007E88A1 /* macOS.entitlements */,
+				FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */,
+				FADB97122648140B007E88A1 /* Info.plist */,
 			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		FADB96E526481055007E88A1 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				FADB96E626481055007E88A1 /* Tests_iOS.swift */,
-				FADB96E826481055007E88A1 /* Info.plist */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		FADB96F026481055007E88A1 /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				FADB96F126481055007E88A1 /* Tests_macOS.swift */,
-				FADB96F326481055007E88A1 /* Info.plist */,
-			);
-			path = "Tests macOS";
+			path = "SwiftUI-GraphQLTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,62 +124,30 @@
 			dependencies = (
 			);
 			name = "SwiftUI-GraphQL (iOS)";
+			packageProductDependencies = (
+				FADB97192648265C007E88A1 /* Apollo */,
+			);
 			productName = "SwiftUI-GraphQL (iOS)";
 			productReference = FADB96D226481055007E88A1 /* SwiftUI-GraphQL.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FADB96D926481055007E88A1 /* SwiftUI-GraphQL (macOS) */ = {
+		FADB970D2648140B007E88A1 /* SwiftUI-GraphQLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FADB96FF26481055007E88A1 /* Build configuration list for PBXNativeTarget "SwiftUI-GraphQL (macOS)" */;
+			buildConfigurationList = FADB97152648140B007E88A1 /* Build configuration list for PBXNativeTarget "SwiftUI-GraphQLTests" */;
 			buildPhases = (
-				FADB96D626481055007E88A1 /* Sources */,
-				FADB96D726481055007E88A1 /* Frameworks */,
-				FADB96D826481055007E88A1 /* Resources */,
+				FADB970A2648140B007E88A1 /* Sources */,
+				FADB970B2648140B007E88A1 /* Frameworks */,
+				FADB970C2648140B007E88A1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FADB97142648140B007E88A1 /* PBXTargetDependency */,
 			);
-			name = "SwiftUI-GraphQL (macOS)";
-			productName = "SwiftUI-GraphQL (macOS)";
-			productReference = FADB96DA26481055007E88A1 /* SwiftUI-GraphQL.app */;
-			productType = "com.apple.product-type.application";
-		};
-		FADB96E126481055007E88A1 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FADB970226481055007E88A1 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				FADB96DE26481055007E88A1 /* Sources */,
-				FADB96DF26481055007E88A1 /* Frameworks */,
-				FADB96E026481055007E88A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FADB96E426481055007E88A1 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = FADB96E226481055007E88A1 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		FADB96EC26481055007E88A1 /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FADB970526481055007E88A1 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				FADB96E926481055007E88A1 /* Sources */,
-				FADB96EA26481055007E88A1 /* Frameworks */,
-				FADB96EB26481055007E88A1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FADB96EF26481055007E88A1 /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = FADB96ED26481055007E88A1 /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
+			name = "SwiftUI-GraphQLTests";
+			productName = "SwiftUI-GraphQLTests";
+			productReference = FADB970E2648140B007E88A1 /* SwiftUI-GraphQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -236,16 +161,9 @@
 					FADB96D126481055007E88A1 = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					FADB96D926481055007E88A1 = {
-						CreatedOnToolsVersion = 12.5;
-					};
-					FADB96E126481055007E88A1 = {
+					FADB970D2648140B007E88A1 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = FADB96D126481055007E88A1;
-					};
-					FADB96EC26481055007E88A1 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = FADB96D926481055007E88A1;
 					};
 				};
 			};
@@ -258,14 +176,15 @@
 				Base,
 			);
 			mainGroup = FADB96C526481054007E88A1;
+			packageReferences = (
+				FADB97182648265C007E88A1 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = FADB96D326481055007E88A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FADB96D126481055007E88A1 /* SwiftUI-GraphQL (iOS) */,
-				FADB96D926481055007E88A1 /* SwiftUI-GraphQL (macOS) */,
-				FADB96E126481055007E88A1 /* Tests iOS */,
-				FADB96EC26481055007E88A1 /* Tests macOS */,
+				FADB970D2648140B007E88A1 /* SwiftUI-GraphQLTests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,22 +198,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB96D826481055007E88A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FADB96F926481055007E88A1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FADB96E026481055007E88A1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FADB96EB26481055007E88A1 /* Resources */ = {
+		FADB970C2648140B007E88A1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -313,43 +217,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADB96D626481055007E88A1 /* Sources */ = {
+		FADB970A2648140B007E88A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADB96F726481055007E88A1 /* ContentView.swift in Sources */,
-				FADB96F526481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FADB96DE26481055007E88A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FADB96E726481055007E88A1 /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FADB96E926481055007E88A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FADB96F226481055007E88A1 /* Tests_macOS.swift in Sources */,
+				FADB97112648140B007E88A1 /* SwiftUI_GraphQLTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FADB96E426481055007E88A1 /* PBXTargetDependency */ = {
+		FADB97142648140B007E88A1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FADB96D126481055007E88A1 /* SwiftUI-GraphQL (iOS) */;
-			targetProxy = FADB96E326481055007E88A1 /* PBXContainerItemProxy */;
-		};
-		FADB96EF26481055007E88A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FADB96D926481055007E88A1 /* SwiftUI-GraphQL (macOS) */;
-			targetProxy = FADB96EE26481055007E88A1 /* PBXContainerItemProxy */;
+			targetProxy = FADB97132648140B007E88A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = "SwiftUI-GraphQL/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
+				INFOPLIST_FILE = "SwiftUI-GraphQL/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,132 +390,46 @@
 			};
 			name = Release;
 		};
-		FADB970026481055007E88A1 /* Debug */ = {
+		FADB97162648140B007E88A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.SwiftUI-GraphQL";
-				PRODUCT_NAME = "SwiftUI-GraphQL";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		FADB970126481055007E88A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = macOS/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.SwiftUI-GraphQL";
-				PRODUCT_NAME = "SwiftUI-GraphQL";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		FADB970326481055007E88A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-GraphQLTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.SwiftUI-GraphQLTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftUI-GraphQL (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-GraphQL.app/SwiftUI-GraphQL";
 			};
 			name = Debug;
 		};
-		FADB970426481055007E88A1 /* Release */ = {
+		FADB97172648140B007E88A1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				INFOPLIST_FILE = "SwiftUI-GraphQLTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.SwiftUI-GraphQLTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "SwiftUI-GraphQL (iOS)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI-GraphQL.app/SwiftUI-GraphQL";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		FADB970626481055007E88A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SwiftUI-GraphQL (macOS)";
-			};
-			name = Debug;
-		};
-		FADB970726481055007E88A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Tests macOS/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.2;
-				PRODUCT_BUNDLE_IDENTIFIER = "ryohei-uno.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "SwiftUI-GraphQL (macOS)";
 			};
 			name = Release;
 		};
@@ -658,34 +454,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FADB96FF26481055007E88A1 /* Build configuration list for PBXNativeTarget "SwiftUI-GraphQL (macOS)" */ = {
+		FADB97152648140B007E88A1 /* Build configuration list for PBXNativeTarget "SwiftUI-GraphQLTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FADB970026481055007E88A1 /* Debug */,
-				FADB970126481055007E88A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FADB970226481055007E88A1 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FADB970326481055007E88A1 /* Debug */,
-				FADB970426481055007E88A1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FADB970526481055007E88A1 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FADB970626481055007E88A1 /* Debug */,
-				FADB970726481055007E88A1 /* Release */,
+				FADB97162648140B007E88A1 /* Debug */,
+				FADB97172648140B007E88A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FADB97182648265C007E88A1 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.43.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FADB97192648265C007E88A1 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FADB97182648265C007E88A1 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FADB96C626481054007E88A1 /* Project object */;
 }
