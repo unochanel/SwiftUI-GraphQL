@@ -5,6 +5,7 @@ struct SearchRepositoryListView: View {
         List(0..<20) { _ in
             SearchRepositoryRow()
         }
+        .listStyle(PlainListStyle())
     }
 }
 

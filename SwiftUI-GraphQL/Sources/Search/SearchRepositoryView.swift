@@ -2,7 +2,13 @@ import SwiftUI
 
 struct SearchRepositoryView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack {
+                SearchRepositoryBar(text: "text", action: {})
+                SearchRepositoryListView()
+            }
+            .navigationTitle("Repository")
+        }
     }
 }
 
