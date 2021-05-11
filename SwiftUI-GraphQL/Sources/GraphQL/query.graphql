@@ -1,5 +1,5 @@
-query Repository($first: Int!, $query: String!) {
-  search(first: $first, query: $query, type: Repositpry) {
+query Repository($first: Int!, $query: String!, $type: SearchType!) {
+  search(first: $first, query: $query, type: $type) {
       repositoryCount
       nodes {
         ... on Repository {
