@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FA1CC816264AB391001322E7 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1CC815264AB391001322E7 /* schema.json */; };
 		FA1CC819264AC4A9001322E7 /* query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = FA1CC817264AC4A9001322E7 /* query.graphql */; };
-		FA1CC81A264AC4A9001322E7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC818264AC4A9001322E7 /* API.swift */; };
 		FA1CC81E264AC8E4001322E7 /* QueryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC81D264AC8E4001322E7 /* QueryViewModel.swift */; };
 		FA1CC820264AC9D0001322E7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC81F264AC9D0001322E7 /* Network.swift */; };
 		FA1CC825264AD540001322E7 /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC824264AD540001322E7 /* NetworkInterceptorProvider.swift */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		FA1CC815264AB391001322E7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		FA1CC817264AC4A9001322E7 /* query.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = query.graphql; sourceTree = "<group>"; };
-		FA1CC818264AC4A9001322E7 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FA1CC81D264AC8E4001322E7 /* QueryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryViewModel.swift; sourceTree = "<group>"; };
 		FA1CC81F264AC9D0001322E7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		FA1CC824264AD540001322E7 /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 		FA1CC812264AB260001322E7 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
-				FA1CC818264AC4A9001322E7 /* API.swift */,
 				FA1CC817264AC4A9001322E7 /* query.graphql */,
 				FA1CC815264AB391001322E7 /* schema.json */,
 				FA1CC81F264AC9D0001322E7 /* Network.swift */,
@@ -308,7 +305,6 @@
 				FA1CC820264AC9D0001322E7 /* Network.swift in Sources */,
 				FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */,
 				FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
-				FA1CC81A264AC4A9001322E7 /* API.swift in Sources */,
 				FA1CC827264AD54E001322E7 /* AuthIntercepter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

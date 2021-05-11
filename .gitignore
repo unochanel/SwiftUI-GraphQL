@@ -19,3 +19,6 @@ DerivedData
 xcuserdata/
 *.moved-aside
 *.xcuserstate
+
+## Apollo
+API.swift
