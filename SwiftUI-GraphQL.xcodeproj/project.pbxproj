@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1CC816264AB391001322E7 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1CC815264AB391001322E7 /* schema.json */; };
 		FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */; };
 		FADB96F626481055007E88A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CC26481054007E88A1 /* ContentView.swift */; };
 		FADB96F826481055007E88A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB96CD26481055007E88A1 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA1CC815264AB391001322E7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
 		FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GraphQLApp.swift; sourceTree = "<group>"; };
 		FADB96CC26481054007E88A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FADB96CD26481055007E88A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1CC812264AB260001322E7 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CC815264AB391001322E7 /* schema.json */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
 		FADB96C526481054007E88A1 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +95,7 @@
 		FADB9708264810CC007E88A1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FA1CC812264AB260001322E7 /* GraphQL */,
 				FADB96CC26481054007E88A1 /* ContentView.swift */,
 			);
 			path = Sources;
@@ -194,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1CC816264AB391001322E7 /* schema.json in Resources */,
 				FADB96F826481055007E88A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
