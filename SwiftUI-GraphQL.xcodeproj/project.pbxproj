@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */; };
-		FADB96F626481055007E88A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CC26481054007E88A1 /* ContentView.swift */; };
 		FADB96F826481055007E88A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB96CD26481055007E88A1 /* Assets.xcassets */; };
 		FADB97112648140B007E88A1 /* SwiftUI_GraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */; };
 		FADB971A2648265C007E88A1 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FADB97192648265C007E88A1 /* Apollo */; };
+		FB391B18264AA2C10010496B /* SearchRepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B17264AA2C10010496B /* SearchRepositoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,13 +26,13 @@
 
 /* Begin PBXFileReference section */
 		FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GraphQLApp.swift; sourceTree = "<group>"; };
-		FADB96CC26481054007E88A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FADB96CD26481055007E88A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADB96D226481055007E88A1 /* SwiftUI-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB96D526481055007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADB970E2648140B007E88A1 /* SwiftUI-GraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-GraphQLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GraphQLTests.swift; sourceTree = "<group>"; };
 		FADB97122648140B007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB391B17264AA2C10010496B /* SearchRepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 		FADB9708264810CC007E88A1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FADB96CC26481054007E88A1 /* ContentView.swift */,
+				FB391B16264AA2A40010496B /* Search */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -106,6 +106,14 @@
 				FADB97122648140B007E88A1 /* Info.plist */,
 			);
 			path = "SwiftUI-GraphQLTests";
+			sourceTree = "<group>";
+		};
+		FB391B16264AA2A40010496B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FB391B17264AA2C10010496B /* SearchRepositoryView.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADB96F626481055007E88A1 /* ContentView.swift in Sources */,
+				FB391B18264AA2C10010496B /* SearchRepositoryView.swift in Sources */,
 				FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
