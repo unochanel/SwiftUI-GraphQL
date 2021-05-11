@@ -1,13 +1,13 @@
 import SwiftUI
 
 struct SearchRepositoryBar: View {
-    @State var text: String
-    @State var action: () -> Void
+    let query: Binding<String>
+    let action: () -> Void
     
     var body: some View {
         ZStack {
             HStack {
-                TextField("Search Repository", text: $text)
+                TextField("Search Repository", text: query)
                     .padding([.leading, .trailing], 8)
                     .frame(height: 32)
                     .background(Color(.white))
@@ -26,6 +26,6 @@ struct SearchRepositoryBar: View {
 
 struct SearchRepositoryBar_Previews: PreviewProvider {
     static var previews: some View {
-        SearchRepositoryBar(text: "", action: {})
+        SearchRepositoryBar(query: .constant(""), action: {})
     }
 }
