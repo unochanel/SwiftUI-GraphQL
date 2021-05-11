@@ -4,7 +4,7 @@ import SwiftUI
 struct SwiftUI_GraphQLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchRepositoryView()
         }
     }
 }
