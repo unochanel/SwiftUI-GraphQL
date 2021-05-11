@@ -13,6 +13,8 @@
 		FADB971A2648265C007E88A1 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FADB97192648265C007E88A1 /* Apollo */; };
 		FB391B18264AA2C10010496B /* SearchRepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B17264AA2C10010496B /* SearchRepositoryView.swift */; };
 		FB391B2C264AA5710010496B /* SearchRepositoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B2B264AA5710010496B /* SearchRepositoryBar.swift */; };
+		FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B40264AA7950010496B /* SearchRepositoryRow.swift */; };
+		FB391B47264AA7A90010496B /* SearchRepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		FADB97122648140B007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB391B17264AA2C10010496B /* SearchRepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryView.swift; sourceTree = "<group>"; };
 		FB391B2B264AA5710010496B /* SearchRepositoryBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepositoryBar.swift; sourceTree = "<group>"; };
+		FB391B40264AA7950010496B /* SearchRepositoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryRow.swift; sourceTree = "<group>"; };
+		FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 			children = (
 				FB391B17264AA2C10010496B /* SearchRepositoryView.swift */,
 				FB391B2B264AA5710010496B /* SearchRepositoryBar.swift */,
+				FB391B40264AA7950010496B /* SearchRepositoryRow.swift */,
+				FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -223,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB391B47264AA7A90010496B /* SearchRepositoryListView.swift in Sources */,
 				FB391B18264AA2C10010496B /* SearchRepositoryView.swift in Sources */,
 				FB391B2C264AA5710010496B /* SearchRepositoryBar.swift in Sources */,
+				FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */,
 				FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
