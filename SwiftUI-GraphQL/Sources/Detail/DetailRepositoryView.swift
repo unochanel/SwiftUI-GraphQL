@@ -1,8 +1,19 @@
 import SwiftUI
 
 struct DetailRepositoryView: View {
+    @State var isStar: Bool = false
+    
     var body: some View {
-        Text("Hello, SwiftUI!")
+        VStack {
+            Text("Hello! SwiftUI")
+        }
+        .navigationBarItems(trailing:
+                                isStar ? Button(action: {}, label: {
+                                    Image(systemName: "star.fill")
+                                }) : Button(action: {}, label: {
+                                    Image(systemName: "star")
+                                })
+        )
     }
 }
 
