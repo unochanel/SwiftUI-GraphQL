@@ -15,6 +15,7 @@ struct SearchRepositoryRow: View {
             }
             .padding(.horizontal, 4)
             Spacer()
+            StarButton()
         }
         .modifier(RowContentPadding())
     }
