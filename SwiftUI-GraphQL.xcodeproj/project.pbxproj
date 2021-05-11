@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		FA1CC816264AB391001322E7 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1CC815264AB391001322E7 /* schema.json */; };
+		FA1CC819264AC4A9001322E7 /* query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = FA1CC817264AC4A9001322E7 /* query.graphql */; };
+		FA1CC81A264AC4A9001322E7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC818264AC4A9001322E7 /* API.swift */; };
 		FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */; };
-		FADB96F626481055007E88A1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CC26481054007E88A1 /* ContentView.swift */; };
 		FADB96F826481055007E88A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB96CD26481055007E88A1 /* Assets.xcassets */; };
 		FADB97112648140B007E88A1 /* SwiftUI_GraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */; };
 		FADB971A2648265C007E88A1 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FADB97192648265C007E88A1 /* Apollo */; };
+		FB391B18264AA2C10010496B /* SearchRepositoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B17264AA2C10010496B /* SearchRepositoryView.swift */; };
+		FB391B2C264AA5710010496B /* SearchRepositoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B2B264AA5710010496B /* SearchRepositoryBar.swift */; };
+		FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B40264AA7950010496B /* SearchRepositoryRow.swift */; };
+		FB391B47264AA7A90010496B /* SearchRepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */; };
+		FB391B4D264AB2600010496B /* RowContentPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B4C264AB2600010496B /* RowContentPadding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,14 +33,20 @@
 
 /* Begin PBXFileReference section */
 		FA1CC815264AB391001322E7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		FA1CC817264AC4A9001322E7 /* query.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = query.graphql; sourceTree = "<group>"; };
+		FA1CC818264AC4A9001322E7 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GraphQLApp.swift; sourceTree = "<group>"; };
-		FADB96CC26481054007E88A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FADB96CD26481055007E88A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADB96D226481055007E88A1 /* SwiftUI-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB96D526481055007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FADB970E2648140B007E88A1 /* SwiftUI-GraphQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-GraphQLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GraphQLTests.swift; sourceTree = "<group>"; };
 		FADB97122648140B007E88A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB391B17264AA2C10010496B /* SearchRepositoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryView.swift; sourceTree = "<group>"; };
+		FB391B2B264AA5710010496B /* SearchRepositoryBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRepositoryBar.swift; sourceTree = "<group>"; };
+		FB391B40264AA7950010496B /* SearchRepositoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryRow.swift; sourceTree = "<group>"; };
+		FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryListView.swift; sourceTree = "<group>"; };
+		FB391B4C264AB2600010496B /* RowContentPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowContentPadding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,8 @@
 		FA1CC812264AB260001322E7 /* GraphQL */ = {
 			isa = PBXGroup;
 			children = (
+				FA1CC818264AC4A9001322E7 /* API.swift */,
+				FA1CC817264AC4A9001322E7 /* query.graphql */,
 				FA1CC815264AB391001322E7 /* schema.json */,
 			);
 			path = GraphQL;
@@ -96,7 +110,8 @@
 			isa = PBXGroup;
 			children = (
 				FA1CC812264AB260001322E7 /* GraphQL */,
-				FADB96CC26481054007E88A1 /* ContentView.swift */,
+				FB391B4B264AB1FB0010496B /* Modifier */,
+				FB391B16264AA2A40010496B /* Search */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -117,6 +132,25 @@
 				FADB97122648140B007E88A1 /* Info.plist */,
 			);
 			path = "SwiftUI-GraphQLTests";
+			sourceTree = "<group>";
+		};
+		FB391B16264AA2A40010496B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				FB391B17264AA2C10010496B /* SearchRepositoryView.swift */,
+				FB391B2B264AA5710010496B /* SearchRepositoryBar.swift */,
+				FB391B40264AA7950010496B /* SearchRepositoryRow.swift */,
+				FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		FB391B4B264AB1FB0010496B /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				FB391B4C264AB2600010496B /* RowContentPadding.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1CC819264AC4A9001322E7 /* query.graphql in Resources */,
 				FA1CC816264AB391001322E7 /* schema.json in Resources */,
 				FADB96F826481055007E88A1 /* Assets.xcassets in Resources */,
 			);
@@ -224,8 +259,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADB96F626481055007E88A1 /* ContentView.swift in Sources */,
+				FB391B47264AA7A90010496B /* SearchRepositoryListView.swift in Sources */,
+				FB391B18264AA2C10010496B /* SearchRepositoryView.swift in Sources */,
+				FB391B4D264AB2600010496B /* RowContentPadding.swift in Sources */,
+				FB391B2C264AA5710010496B /* SearchRepositoryBar.swift in Sources */,
+				FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */,
 				FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
+				FA1CC81A264AC4A9001322E7 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
