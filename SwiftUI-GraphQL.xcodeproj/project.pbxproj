@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1CC816264AB391001322E7 /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = FA1CC815264AB391001322E7 /* schema.json */; };
+		FA1CC819264AC4A9001322E7 /* query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = FA1CC817264AC4A9001322E7 /* query.graphql */; };
+		FA1CC81E264AC8E4001322E7 /* QueryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC81D264AC8E4001322E7 /* QueryViewModel.swift */; };
+		FA1CC820264AC9D0001322E7 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC81F264AC9D0001322E7 /* Network.swift */; };
+		FA1CC825264AD540001322E7 /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC824264AD540001322E7 /* NetworkInterceptorProvider.swift */; };
+		FA1CC827264AD54E001322E7 /* AuthIntercepter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC826264AD54E001322E7 /* AuthIntercepter.swift */; };
+		FA1CC829264AD691001322E7 /* ResponseIntercepter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1CC828264AD691001322E7 /* ResponseIntercepter.swift */; };
 		FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */; };
 		FADB96F826481055007E88A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADB96CD26481055007E88A1 /* Assets.xcassets */; };
 		FADB97112648140B007E88A1 /* SwiftUI_GraphQLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB97102648140B007E88A1 /* SwiftUI_GraphQLTests.swift */; };
@@ -29,6 +36,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA1CC815264AB391001322E7 /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		FA1CC817264AC4A9001322E7 /* query.graphql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = query.graphql; sourceTree = "<group>"; };
+		FA1CC81D264AC8E4001322E7 /* QueryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryViewModel.swift; sourceTree = "<group>"; };
+		FA1CC81F264AC9D0001322E7 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FA1CC824264AD540001322E7 /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
+		FA1CC826264AD54E001322E7 /* AuthIntercepter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthIntercepter.swift; sourceTree = "<group>"; };
+		FA1CC828264AD691001322E7 /* ResponseIntercepter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseIntercepter.swift; sourceTree = "<group>"; };
 		FADB96CB26481054007E88A1 /* SwiftUI_GraphQLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_GraphQLApp.swift; sourceTree = "<group>"; };
 		FADB96CD26481055007E88A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADB96D226481055007E88A1 /* SwiftUI-GraphQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-GraphQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +76,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA1CC812264AB260001322E7 /* GraphQL */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CC817264AC4A9001322E7 /* query.graphql */,
+				FA1CC815264AB391001322E7 /* schema.json */,
+				FA1CC81F264AC9D0001322E7 /* Network.swift */,
+				FA1CC823264AD515001322E7 /* Intercepter */,
+			);
+			path = GraphQL;
+			sourceTree = "<group>";
+		};
+		FA1CC81B264AC8C9001322E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FB391B16264AA2A40010496B /* Search */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA1CC81C264AC8D5001322E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CC81D264AC8E4001322E7 /* QueryViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA1CC823264AD515001322E7 /* Intercepter */ = {
+			isa = PBXGroup;
+			children = (
+				FA1CC824264AD540001322E7 /* NetworkInterceptorProvider.swift */,
+				FA1CC826264AD54E001322E7 /* AuthIntercepter.swift */,
+				FA1CC828264AD691001322E7 /* ResponseIntercepter.swift */,
+			);
+			path = Intercepter;
+			sourceTree = "<group>";
+		};
 		FADB96C526481054007E88A1 = {
 			isa = PBXGroup;
 			children = (
@@ -93,8 +144,10 @@
 		FADB9708264810CC007E88A1 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FA1CC81B264AC8C9001322E7 /* View */,
+				FA1CC812264AB260001322E7 /* GraphQL */,
+				FA1CC81C264AC8D5001322E7 /* Model */,
 				FB391B4B264AB1FB0010496B /* Modifier */,
-				FB391B16264AA2A40010496B /* Search */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -222,6 +275,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1CC819264AC4A9001322E7 /* query.graphql in Resources */,
+				FA1CC816264AB391001322E7 /* schema.json in Resources */,
 				FADB96F826481055007E88A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,11 +296,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB391B47264AA7A90010496B /* SearchRepositoryListView.swift in Sources */,
+				FA1CC81E264AC8E4001322E7 /* QueryViewModel.swift in Sources */,
+				FA1CC825264AD540001322E7 /* NetworkInterceptorProvider.swift in Sources */,
 				FB391B18264AA2C10010496B /* SearchRepositoryView.swift in Sources */,
+				FA1CC829264AD691001322E7 /* ResponseIntercepter.swift in Sources */,
 				FB391B4D264AB2600010496B /* RowContentPadding.swift in Sources */,
 				FB391B2C264AA5710010496B /* SearchRepositoryBar.swift in Sources */,
+				FA1CC820264AC9D0001322E7 /* Network.swift in Sources */,
 				FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */,
 				FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
+				FA1CC827264AD54E001322E7 /* AuthIntercepter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

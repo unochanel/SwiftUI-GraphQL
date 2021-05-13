@@ -1,0 +1,11 @@
+query Repository($first: Int!, $query: String!, $type: SearchType!) {
+  search(first: $first, query: $query, type: $type) {
+      repositoryCount
+      nodes {
+        ... on Repository {
+          id
+          name
+        }
+      }
+  }
+}
