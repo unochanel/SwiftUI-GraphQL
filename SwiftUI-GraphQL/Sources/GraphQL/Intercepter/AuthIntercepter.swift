@@ -8,8 +8,8 @@ final class UserIntercepter: ApolloInterceptor {
                                    request: HTTPRequest<Operation>,
                                    response: HTTPResponse<Operation>?,
                                    completion: @escaping (Result<GraphQLResult<Operation.Data>, Error>) -> Void) where Operation : GraphQLOperation {
-        // TODO: GithubのTokenを追加
-//        request.addHeader(name: "Authorization", value: "Bearer Token")
+        /// TODO: GithubのPersonal Access Tokenを追加
+        request.addHeader(name: "Authorization", value: "Bearer {TOKEN}")
         chain.proceedAsync(request: request,
                            response: response,
                            completion: completion)
