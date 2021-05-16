@@ -9,9 +9,9 @@ struct SearchRepositoryRow: View {
                 .clipShape(Circle())
                 .frame(width: 40, height: 40)
             VStack(alignment: .leading) {
-                Text(repository?.name ?? "")
+                Text(repository?.fragments.repositoryDetail.name ?? "")
                     .fontWeight(.bold)
-                Text(repository?.description ?? "")
+                Text(repository?.fragments.repositoryDetail.description ?? "")
                     .font(.caption2)
             }
             .padding(.horizontal, 4)
@@ -23,6 +23,6 @@ struct SearchRepositoryRow: View {
 
 struct SearchRepositoryRow_Previews: PreviewProvider {
     static var previews: some View {
-        SearchRepositoryRow(repository:.init(id: "", name: "", owner: .makeUser(id: "", avatarUrl: "")))
+        SearchRepositoryRow(repository: .none)
     }
 }

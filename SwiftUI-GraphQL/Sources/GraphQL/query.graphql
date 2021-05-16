@@ -3,9 +3,7 @@ query Search($first: Int!, $query: String!, $type: SearchType!) {
     repositoryCount
       nodes {
         ... on Repository {
-          id
-          name
-          description
+          ...RepositoryDetail
           owner {
             id
             avatarUrl
@@ -13,4 +11,10 @@ query Search($first: Int!, $query: String!, $type: SearchType!) {
         }
       }
   }
+}
+
+fragment RepositoryDetail on Repository {
+  id
+  name
+  description
 }
