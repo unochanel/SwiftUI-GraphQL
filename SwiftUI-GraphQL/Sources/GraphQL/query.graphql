@@ -1,11 +1,15 @@
 query Search($first: Int!, $query: String!, $type: SearchType!) {
   search(first: $first, query: $query, type: $type) {
-      repositoryCount
+    repositoryCount
       nodes {
         ... on Repository {
           id
           name
           description
+          owner {
+            id
+            avatarUrl
+          }
         }
       }
   }

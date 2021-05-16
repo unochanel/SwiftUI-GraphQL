@@ -24,6 +24,8 @@
 		FB391B47264AA7A90010496B /* SearchRepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */; };
 		FB391B4D264AB2600010496B /* RowContentPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B4C264AB2600010496B /* RowContentPadding.swift */; };
 		FBEFC7C9264CAEAC008CDCA4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEFC7C8264CAEAC008CDCA4 /* API.swift */; };
+		FBEFCAAB26511BA1008CDCA4 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEFCAAA26511BA1008CDCA4 /* ImageLoader.swift */; };
+		FBEFCAAF26511C06008CDCA4 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEFCAAE26511C06008CDCA4 /* URLImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryListView.swift; sourceTree = "<group>"; };
 		FB391B4C264AB2600010496B /* RowContentPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowContentPadding.swift; sourceTree = "<group>"; };
 		FBEFC7C8264CAEAC008CDCA4 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FBEFCAAA26511BA1008CDCA4 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		FBEFCAAE26511C06008CDCA4 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				FA1CC824264AD540001322E7 /* NetworkInterceptorProvider.swift */,
-				FA1CC826264AD54E001322E7 /* AuthIntercepter.swift */,
 				FA1CC828264AD691001322E7 /* ResponseIntercepter.swift */,
+				FA1CC826264AD54E001322E7 /* AuthIntercepter.swift */,
 			);
 			path = Intercepter;
 			sourceTree = "<group>";
@@ -188,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				FB391B4C264AB2600010496B /* RowContentPadding.swift */,
+				FBEFCAAA26511BA1008CDCA4 /* ImageLoader.swift */,
+				FBEFCAAE26511C06008CDCA4 /* URLImage.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -305,11 +311,13 @@
 				FA1CC829264AD691001322E7 /* ResponseIntercepter.swift in Sources */,
 				FB391B4D264AB2600010496B /* RowContentPadding.swift in Sources */,
 				FB391B2C264AA5710010496B /* SearchRepositoryBar.swift in Sources */,
+				FBEFCAAF26511C06008CDCA4 /* URLImage.swift in Sources */,
 				FA1CC820264AC9D0001322E7 /* Network.swift in Sources */,
 				FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */,
 				FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
 				FBEFC7C9264CAEAC008CDCA4 /* API.swift in Sources */,
 				FA1CC827264AD54E001322E7 /* AuthIntercepter.swift in Sources */,
+				FBEFCAAB26511BA1008CDCA4 /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

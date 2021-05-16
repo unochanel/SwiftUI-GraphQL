@@ -1,18 +1,17 @@
 import SwiftUI
 
 struct SearchRepositoryRow: View {
-    let repository: SearchQuery.Data.Search.Node.AsRepository
+    let repository: SearchQuery.Data.Search.Node.AsRepository?
 
     var body: some View {
         HStack {
-            Image(systemName: "person.crop.circle.fill")
-                .resizable()
+            URLImage(url: repository?.owner.avatarUrl ?? "")
                 .clipShape(Circle())
                 .frame(width: 40, height: 40)
             VStack(alignment: .leading) {
-                Text(repository.name)
+                Text(repository?.name ?? "")
                     .fontWeight(.bold)
-                Text(repository.description ?? "")
+                Text(repository?.description ?? "")
                     .font(.caption2)
             }
             .padding(.horizontal, 4)
@@ -24,6 +23,6 @@ struct SearchRepositoryRow: View {
 
 struct SearchRepositoryRow_Previews: PreviewProvider {
     static var previews: some View {
-        SearchRepositoryRow(repository: .init(id: "1", name: "", description: ""))
+        SearchRepositoryRow(repository:.init(id: "", name: "", owner: .makeUser(id: "", avatarUrl: "")))
     }
 }
