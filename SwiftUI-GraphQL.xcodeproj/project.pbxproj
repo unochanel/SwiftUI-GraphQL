@@ -154,7 +154,7 @@
 				FA1CC81B264AC8C9001322E7 /* View */,
 				FA1CC812264AB260001322E7 /* GraphQL */,
 				FA1CC81C264AC8D5001322E7 /* Model */,
-				FB391B4B264AB1FB0010496B /* Modifier */,
+				FB391B4B264AB1FB0010496B /* Util */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -188,14 +188,14 @@
 			path = Search;
 			sourceTree = "<group>";
 		};
-		FB391B4B264AB1FB0010496B /* Modifier */ = {
+		FB391B4B264AB1FB0010496B /* Util */ = {
 			isa = PBXGroup;
 			children = (
 				FB391B4C264AB2600010496B /* RowContentPadding.swift */,
 				FBEFCAAA26511BA1008CDCA4 /* ImageLoader.swift */,
 				FBEFCAAE26511C06008CDCA4 /* URLImage.swift */,
 			);
-			path = Modifier;
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
