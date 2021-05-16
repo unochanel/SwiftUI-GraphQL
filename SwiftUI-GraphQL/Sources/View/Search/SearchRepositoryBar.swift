@@ -19,7 +19,7 @@ struct SearchRepositoryBar: View {
             }
             .frame(height: 64)
         }
-        .padding([.leading, .trailing], 16)
+        .padding(.horizontal, 16)
         .background(Color(.systemGray6))
     }
 }
