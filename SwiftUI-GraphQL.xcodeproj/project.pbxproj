@@ -23,6 +23,7 @@
 		FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B40264AA7950010496B /* SearchRepositoryRow.swift */; };
 		FB391B47264AA7A90010496B /* SearchRepositoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */; };
 		FB391B4D264AB2600010496B /* RowContentPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB391B4C264AB2600010496B /* RowContentPadding.swift */; };
+		FBEFC7C9264CAEAC008CDCA4 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEFC7C8264CAEAC008CDCA4 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FB391B40264AA7950010496B /* SearchRepositoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryRow.swift; sourceTree = "<group>"; };
 		FB391B46264AA7A90010496B /* SearchRepositoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryListView.swift; sourceTree = "<group>"; };
 		FB391B4C264AB2600010496B /* RowContentPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowContentPadding.swift; sourceTree = "<group>"; };
+		FBEFC7C8264CAEAC008CDCA4 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				FA1CC817264AC4A9001322E7 /* query.graphql */,
 				FA1CC815264AB391001322E7 /* schema.json */,
 				FA1CC81F264AC9D0001322E7 /* Network.swift */,
+				FBEFC7C8264CAEAC008CDCA4 /* API.swift */,
 				FA1CC823264AD515001322E7 /* Intercepter */,
 			);
 			path = GraphQL;
@@ -305,6 +308,7 @@
 				FA1CC820264AC9D0001322E7 /* Network.swift in Sources */,
 				FB391B41264AA7950010496B /* SearchRepositoryRow.swift in Sources */,
 				FADB96F426481055007E88A1 /* SwiftUI_GraphQLApp.swift in Sources */,
+				FBEFC7C9264CAEAC008CDCA4 /* API.swift in Sources */,
 				FA1CC827264AD54E001322E7 /* AuthIntercepter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

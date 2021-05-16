@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct SearchRepositoryRow: View {
-    let repository: RepositoryQuery.Data.Search.Node.AsRepository
+    let repository: SearchQuery.Data.Search.Node.AsRepository
 
     var body: some View {
         HStack {
@@ -12,6 +12,8 @@ struct SearchRepositoryRow: View {
             VStack(alignment: .leading) {
                 Text(repository.name)
                     .fontWeight(.bold)
+                Text(repository.description ?? "")
+                    .font(.caption2)
             }
             .padding(.horizontal, 4)
             Spacer()
@@ -22,6 +24,6 @@ struct SearchRepositoryRow: View {
 
 struct SearchRepositoryRow_Previews: PreviewProvider {
     static var previews: some View {
-        SearchRepositoryRow(repository: .init(id: "1", name: ""))
+        SearchRepositoryRow(repository: .init(id: "1", name: "", description: ""))
     }
 }

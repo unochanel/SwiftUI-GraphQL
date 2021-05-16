@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct SearchRepositoryView: View {
-    @StateObject var queryViewModel = QueryViewModel<RepositoryQuery>()
+    @StateObject var queryViewModel = QueryViewModel<SearchQuery>()
     @State var query: String = ""
 
     var body: some View {
