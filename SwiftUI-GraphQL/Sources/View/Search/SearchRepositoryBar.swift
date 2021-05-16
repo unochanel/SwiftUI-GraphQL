@@ -8,7 +8,7 @@ struct SearchRepositoryBar: View {
         ZStack {
             HStack {
                 TextField("Search Repository", text: query)
-                    .padding([.leading, .trailing], 8)
+                    .padding(.horizontal, 8)
                     .frame(height: 32)
                     .background(Color(.white))
                     .cornerRadius(8)

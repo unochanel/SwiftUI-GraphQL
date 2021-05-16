@@ -5,8 +5,8 @@ struct SearchRepositoryListView: View {
 
     var body: some View {
         List(repositoryList, id: \.?.asRepository?.fragments.repositoryDetail.id) { repository in
-            if let repo = repository?.asRepository { 
-                SearchRepositoryRow(repository: repo)
+            if let repo = repository?.asRepository {
+                SearchRepositoryRow(repository: repo.fragments.repositoryDetail)
             }
         }
         .listStyle(PlainListStyle())

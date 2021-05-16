@@ -4,10 +4,6 @@ query Search($first: Int!, $query: String!, $type: SearchType!) {
       nodes {
         ... on Repository {
           ...RepositoryDetail
-          owner {
-            id
-            avatarUrl
-          }
         }
       }
   }
@@ -17,4 +13,7 @@ fragment RepositoryDetail on Repository {
   id
   name
   description
+  owner {
+    avatarUrl
+  }
 }
