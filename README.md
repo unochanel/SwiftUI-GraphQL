@@ -8,7 +8,7 @@ To try this sample project, you need to set `Github Personal Access Token` below
 
 SwiftUI-GraphQL/Sources/GraphQL/Intercepter/AuthIntercepter.swift
 
-```
+```swift
 /// TODO: GithubのPersonal Access Tokenを追加
 request.addHeader(name: "Authorization", value: "Bearer {TOKEN}")
 ```
