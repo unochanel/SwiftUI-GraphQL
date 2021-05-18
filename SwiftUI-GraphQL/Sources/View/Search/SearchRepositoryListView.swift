@@ -1,12 +1,12 @@
 import SwiftUI
 
 struct SearchRepositoryListView: View {
-    let repositoryList: [RepositoryQuery.Data.Search.Node?]
+    let repositoryList: [SearchQuery.Data.Search.Node?]
 
     var body: some View {
-        List(repositoryList, id: \.?.asRepository?.id) { repository in
+        List(repositoryList, id: \.?.asRepository?.fragments.repositoryDetail.id) { repository in
             if let repo = repository?.asRepository {
-                SearchRepositoryRow(repository: repo)
+                SearchRepositoryRow(repository: repo.fragments.repositoryDetail)
             }
         }
         .listStyle(PlainListStyle())

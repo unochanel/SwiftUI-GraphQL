@@ -16,6 +16,7 @@ final class QueryViewModel<Query: GraphQLQuery>: ObservableObject {
         let cachePolicy: CachePolicy = forceReload ? .fetchIgnoringCacheCompletely : .fetchIgnoringCacheData
 
         Network.shared.apollo.fetch(query: query, cachePolicy: cachePolicy) { [weak self] result in
+            print(result)
             switch result {
                 case .success(let result):
                     self?.data = result.data

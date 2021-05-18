@@ -1,11 +1,19 @@
-query Repository($first: Int!, $query: String!, $type: SearchType!) {
+query Search($first: Int!, $query: String!, $type: SearchType!) {
   search(first: $first, query: $query, type: $type) {
-      repositoryCount
+    repositoryCount
       nodes {
         ... on Repository {
-          id
-          name
+          ...RepositoryDetail
         }
       }
+  }
+}
+
+fragment RepositoryDetail on Repository {
+  id
+  name
+  description
+  owner {
+    avatarUrl
   }
 }
