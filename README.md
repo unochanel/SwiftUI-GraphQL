@@ -17,3 +17,11 @@ generate API.swift　
 ```
 $ make generate
 ```
+## 📚 Credit
+* [SwiftUI](https://developer.apple.com/xcode/swiftui/) 
+* [GraphQL](https://www.apollographql.com/docs/)
+* [GitHub GraphQL API](https://docs.github.com/ja/graphql)
+
+## ⭐️ Special Thanks
+* [Swift-Combine](https://github.com/ra1028/SwiftUI-Combine)
+* [MortyUI](https://github.com/Dimillian/MortyUI)
